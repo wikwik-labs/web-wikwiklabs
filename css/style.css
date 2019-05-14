@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../font/SF-Pro-Display/SF-Pro-Display-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../font/SF-Pro-Display/SF-Pro-Display-Semibold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../font/SF-Pro-Display/SF-Pro-Display-RegularItalic.otf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../font/SF-Pro-Display/SF-Pro-Display-SemiboldItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+body{
+    background-color: #E3E4E8 !important;
+    background: url('../img/bg.png');
+    background-size: cover;
+    font-family: 'SFProDisplay', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color : rgba(57, 55, 104, 1);
+    font-weight: bold;
+}
+
+.body-wrapper{
+    background: #fafafa;
+    border-radius: 15px;
+    margin: 5vh 3vw;
+    min-height: 90vh;
+    padding: 2vh 2vw;
+    overflow: hidden;
+    max-width: 94vw;
+    /* position: relative; */
+    padding-bottom: 60px;
+}
+
+#header{
+    line-height: 80px;
+}
+.btn.btn-wikwik{
+    color: #fff;
+    background-color: rgba(57, 55, 104, 0.70);
+    border-color: rgba(57, 55, 104, 0.70);
+    border-radius: 20px;
+}
+.btn.btn-wikwik:hover{
+    color: #fff;
+    background-color: rgb(173, 174, 234);
+    border-color: rgb(173, 174, 234);
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(57, 55, 104, 1);
+}
+
+footer p{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+.nav-item{
+    padding: 0 0.5vw;
+}
+
+/* nav wikwik */
+.nav-wikwik .nav-link{
+    color: #8c8c8c;
+    line-height: 45px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.nav-wikwik .nav-link:hover{
+    background-color: rgb(173, 174, 234);
+}
+.nav-wikwik .active{
+    background-color: rgba(57, 55, 104, 1);
+    color: #fff;
+}
+.nav-wikwik .active:hover{
+    background-color: rgba(57, 55, 104, 1);
+    color: #fff;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+.input-group-prepend{
+    margin-right: 50px;
+    min-width: 70px;
+}
+.input-group-prepend label{
+    margin: auto 0;
+}
+
+
+.photoprofile{
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #fff'
+}
+
+#settingpage .nav-wikwik{
+    border-right: thin solid #f1f1f1;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.wikwik.form-control{
+    border-radius: 5px;
+}
+
+.input-group>.wikwik.form-control:not(:first-child) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

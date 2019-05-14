@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../third-party/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+</head>
+
+<body id="settingpage">
+    <div class="container body-wrapper">
+        <header id="header">
+            <div class="row">
+                <div class="col-2"><a class="navbar-brand" href="#"><img src="../img/logo/PNG/Asset 1.png" alt="WikwikLab"
+                            height="65px"></a></div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent justify-content-end">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto text-right">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Info</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-wikwik btn-lg" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <h2>Settings</h2>
+        <div class="row">
+            <aside class="col-3">
+                <ul class="nav nav-vertical nav-wikwik flex-column text-right">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="settings-basic-info.html">Basic Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings-basic-info.html">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings-basic-info.html">My Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings-basic-info.html">Hobby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings-basic-certificate.html">My Certificate</a>
+                    </li>
+                </ul>
+            </aside>
+            <section class="col-9" id="basicinfo">
+                <h2>Basic Info</h2>
+                <form action="#" method="POST">
+                    <div class="row">
+                        <div class="col-2" style="min-width:128px;">
+                            <div class="avatar">
+                                <img src="http://www.amikom.ac.id/public/fotomhs/2017/17_11_1337.jpg" class="photoprofile">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <button type="button" class="btn btn-warning" style="margin-bottom: 15px;">Upload a new
+                                    avatar</button>
+                                <br>
+                                <button class="btn btn-light btn-outline-secondary">Delete avatar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <label>Firstname</label>
+                                </div>
+                                <input type="text" name="firstname" class="form-control wikwik">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <label>Lastname</label>
+                                </div>
+                                <input type="text" name="lastname" class="form-control wikwik">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <label>Birth Date</label>
+                        </div>
+                        <input type="text" name="birthdate" class="form-control wikwik">
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <label>Address</label>
+                        </div>
+                        <input type="text" name="address" class="form-control wikwik">
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <label>Email</label>
+                        </div>
+                        <input type="email" name="email" class="form-control wikwik">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="reset" class="btn btn-success">Save</button>
+                        <button type="reset" class="btn btn-light btn-outline-secondary">Cancel</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <footer>
+            <p style="font-size: 1.3rem;"><i>wiwik<b>Labs</b></i></p>
+            <p>Copyright &copy; 2019 wikwikLabs. All Right Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
