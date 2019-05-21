@@ -39,6 +39,10 @@ body {
     width: 50%;
 }
 
+.kolom.k12{
+    width: 100%;
+}
+
 .header .menu{
     text-align: right;
 }
