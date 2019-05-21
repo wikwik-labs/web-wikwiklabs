@@ -77,6 +77,27 @@ body {
     color: rgba(0,0,0,.9);
 }
 
+a.btn {
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn.btn-wikwik {
+    color: #fff;
+    background-color: rgb(173, 174, 234);
+    border-color: rgb(173, 174, 234);
+    border-radius: 20px;
+}
+
+.btn.btn-wikwik:hover{
+    background-color: rgba(57, 55, 104, 0.70);
+    border-color: rgba(57, 55, 104, 0.70);
+}
+.btn {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 footer p{
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
