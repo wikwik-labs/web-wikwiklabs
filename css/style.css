@@ -32,16 +32,49 @@ body {
     border-radius: 15px;
     padding: 2vh 2vw;
 }
+
+/* Grid */
 .kolom {
     float: left;
 }
+.kolom.k1{
+    width: 8.333333333333333%;
+}
+.kolom.k2{
+    width: 16.66666667%;
+}
+.kolom.k3{
+    width: 25%;
+}
+.kolom.k4{
+    width: 33.33333333%;
+}
+.kolom.k5{
+    width: 41.66666667%;
+}
 .kolom.k6{
     width: 50%;
+}
+.kolom.k7{
+    width: 58.3333333333%;
+}
+.kolom.k8{
+    width: 66.66666667%;
+}
+.kolom.k9{
+    width: 75%;
+}
+.kolom.k10{
+    width: 83.33333333%;
+}
+.kolom.k11{
+    width: 91.66666667%;
 }
 
 .kolom.k12{
     width: 100%;
 }
+/* Grid END */
 
 .header .menu{
     text-align: right;
