@@ -24,6 +24,10 @@ body {
     background-size: cover;
     font-family: 'SFProDisplay', sans-serif;
 }
+section{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
 .wrapper{
     width: 75%;
     margin: 0 auto;
