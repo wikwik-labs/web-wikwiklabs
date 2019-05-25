@@ -24,6 +24,10 @@ body {
     background-size: cover;
     font-family: 'SFProDisplay', sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+    color : rgba(57, 55, 104, 1);
+    font-weight: bold;
+}
 section{
     margin: 0 auto;
     margin-bottom: 40px;
