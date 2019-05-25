@@ -33,12 +33,19 @@ section{
     margin-bottom: 40px;
 }
 .wrapper{
-    width: 75%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 5vh auto;
     position: relative;
     background-color: #fafafa;
     border-radius: 15px;
     padding: 2vh 2vw;
+
+    /*margin: 5vh 3vw;*/
+    padding: 2vh 2.5vw;
+    overflow: hidden;
+    max-width: 94vw;
+     position: relative; 
+    padding-bottom: 60px;
 }
 
 /* Grid */
