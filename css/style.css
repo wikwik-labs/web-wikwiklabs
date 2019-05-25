@@ -101,6 +101,12 @@ body {
     padding: 0 10px;
 }
 
+.header .menu a:hover.btn{
+    background-color: rgba(57, 55, 104, 0.70);
+    border-color: rgba(57, 55, 104, 0.70);
+    color: #fff;
+}
+
 .menu a{
     text-decoration: none;
     color: rgba(0,0,0,.5);
