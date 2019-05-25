@@ -169,6 +169,15 @@ footer p{
     text-align: justify;
 }
 /* Text Alignment END */
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .kolom.k1,.kolom.k2,.kolom.k3,.kolom.k4,.kolom.k5,.kolom.k6,.kolom.k7,.kolom.k8,.kolom.k9,.kolom.k10,.kolom.k11,.kolom.k12{
+    width: 100%;
+  }
+}
+/* Responsive END */
+
 .clear {
     clear: both;
 }
