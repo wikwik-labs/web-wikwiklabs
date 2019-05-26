@@ -185,6 +185,23 @@ footer p{
 }
 /* Responsive END */
 
+.kelas-info{
+    overflow: hidden;
+    border-radius: 2vh;
+    background-color: #fafafa;
+    box-shadow: -4px 8px 30px -30px rgba(0,0,0,1);
+    margin-bottom: 30px;
+}
+.kelas-info .primary{
+    background-color: #f5c557;
+    padding: 2vh 5vw;
+    font-weight: bold;
+    height: 100px;
+}
+.kelas-info .secondary{
+    padding: 2vh 5vw;
+}
+
 /* Collapsible */
 .collapsible-wrapper{
     padding: 1vh 1vw;
