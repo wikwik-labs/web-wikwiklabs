@@ -197,9 +197,12 @@ footer p{
     padding: 2vh 5vw;
     font-weight: bold;
     height: 100px;
+    border: solid thin #f5c557;
 }
 .kelas-info .secondary{
     padding: 2vh 5vw;
+    border: solid thin #f5c557;
+    border-radius: 0 0 2vh 2vh;
 }
 
 /* Collapsible */
