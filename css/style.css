@@ -47,6 +47,10 @@ section{
      position: relative; 
     padding-bottom: 60px;
 }
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
 
 /* Grid */
 .kolom {
