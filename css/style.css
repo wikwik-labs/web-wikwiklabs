@@ -156,6 +156,20 @@ a.btn {
     border-radius: 2vh;
 }
 
+.profile img{
+    width: 100%;
+}
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px #FF9F55;
+    background: #FF9F55;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 /*FORM
 .form-register {
     color: rgb(173, 174, 234);
