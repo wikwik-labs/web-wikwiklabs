@@ -198,8 +198,8 @@ table.responsive{
 .form-password {
     color: rgba(57, 55, 104, 0.70);
     font-size: 15px;
-    font-family: SFProDisplay;
-    src: url("font/SF-Pro-Display/SF-Pro-Display-Semibold.otf");
+    /* font-family: SFProDisplay;
+    src: url("font/SF-Pro-Display/SF-Pro-Display-Semibold.otf"); */
     font-weight: italic;
 }
   
