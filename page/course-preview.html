@@ -38,44 +38,48 @@
 
                 <div class="baris">
                     <div class="kolom k6 text-center">
-                        <img src="../img/course-html.png" class="img-fluid" style="width:90%;">
+                        <img src="../img/course-html.png" class="img-fluid" style="width:90%;border-radius: 3vh;">
                     </div>
-                    <div class="kolom k6">
-                        <a href="#" class="btn btn-wikwik btn-lg"></a>
-
-                    </div>
-                    <div>
+                    <div class="kolom k6 text-right">
                         <span class="login100-form-title" style="color: #673AB7">
                             HTML Lesson Part 1
                         </span>
-                        <p class="txt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit
-                            lectus a. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum.
-                            Velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Libero volutpat sed cras
-                            ornare arcu dui vivamus. Id venenatis a condimentum vitae sapien pellentesque habitant morbi
-                            tristique. Orci nulla pellentesque dignissim enim sit amet venenatis. Non nisi est sit amet
-                            facilisis magna etiam. Neque sodales ut etiam sit amet nisl purus. Eget nullam non nisi est
-                            sit amet facilisis magna. Feugiat scelerisque varius morbi enim nunc faucibus. Tincidunt dui
-                            ut ornare lectus sit amet est placerat in. Convallis convallis tellus id interdum.</p>
+                        <p class="txt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit lectus a.</p>
 
                         <a href="#" class="btn btn-wikwik btn-lg" style="background-color: #FF9800">Start Course</a>
 
-                        <p>if you're still having trouble, <a href="#">this article</a> may help.</p>
-                        <ul>
-                            <a class="btn btn-wikwik btn-lg"></a>
-                            <a>Html Design</a>
-                        </ul>
-                        <ul>
-                            <a class="btn btn-wikwik btn-lg"></a>
-                            <a>Css Scripting</a>
-                        </ul>
-                        <ul>
-                            <a class="btn btn-wikwik btn-lg"></a>
-                            <a>Js Animation</a>
+                        <style>
+                            .list-course-preview{
+                                list-style: none;
+                            }
+                            .list-course-preview li{
+                                position: relative;
+                            }
+                            .list-course-preview li::before{
+                                content: '';
+                                position: absolute;
+                                width: 25px;
+                                height: 25px;
+                                background-color: white;
+                                border: 4px solid #FF9F55;
+                                top: 15px;
+                                border-radius: 50%;
+                                z-index: 1;
+                            }
+                        </style>
+                        <ul class="text-left list-course-preview">
+                            <li>
+                                Html Design
+                            </li>
+                            <li>
+                                Css Scripting
+                            </li>
+                            <li>
+                                Js Animation
+                            </li>
                         </ul>
                     </div>
-
-
+                    <div class="clear"></div>
                 </div>
 
             </div>
