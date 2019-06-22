@@ -1,0 +1,55 @@
+.profile img{
+    width: 100%;
+}
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px #FF9F55;
+    background: #FF9F55;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*FORM
+.form-register {
+    color: rgb(173, 174, 234);
+    font-size: 15px;
+    font-family: SFProDisplay;
+    src: url("font/SF-Pro-Display/SF-Pro-Display-Semibold.otf");
+    
+}
+.form1{
+    width: 200px; 
+    height: 30px;
+    background: firebrick;
+    border-radius: 20%;
+}
+*/
+.form-password {
+    color: rgba(57, 55, 104, 0.70);
+    font-size: 15px;
+    font-family: SFProDisplay;
+    src: url("font/SF-Pro-Display/SF-Pro-Display-Semibold.otf");
+    font-weight: italic;
+}
+
+.input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+.input[type=password]:focus {
+    border: 3px solid #555;
+  }
+
+
+/*BATAS FORM*/
