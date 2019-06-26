@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/candra.css">
+    <link rel="stylesheet" href="../third-party/font-awesome/css/font-awesome.min.css">
+    <title>Course Assignment</title>
+</head>
+
+<body id="course-assignment">
+    <div class="wrapper">
+        <div class="header">
+            <div class="baris">
+                <div class="kolom k6">
+                    <a class="navbar-brand" href="#"><img src="../img/logo/logo.png" alt="WikwikLab"
+                            height="65px"></a>
+                </div>
+                <div class="kolom k6">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="course.html">Courses</a></li>
+                            <li><a href="info.html">Info</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="login.html" class="btn btn-wikwik btn-lg">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="limiter">
+            <div class="baris">
+                <style>
+                    .sidebar{
+                        background-color: #F9F9F9;
+                        padding: 0 18.5px;
+                    }
+                    .sidebar .nav-panel .thumb {
+                        position: relative;
+                    }
+                    .sidebar .nav-panel .thumb, .sidebar .nav-panel .thumb img{
+                        border-radius: 2vh;
+                    }
+                    .sidebar .nav-panel a.btn-nav{
+                        color: #fff;
+                    }
+                    .sidebar .nav-panel .btn-thumb{
+                        position: absolute;
+                        top: 37%;
+                        font-size: 16pt;
+                        width: 37px;
+                        height: 37px;
+                        border-radius: 25px;
+                        text-align: center;
+                        padding: 5px;
+                    }
+                    .sidebar .nav-panel .btn-thumb.delete{
+                        background-color: #F06292;
+                        left: -18.5px;
+                    }
+                    .sidebar .nav-panel .btn-thumb.plus{
+                        background-color: #4DB6AC;
+                        right: -18.5px;
+                    }
+                    .sidebar .nav-panel img{
+                        width: 100%;
+                    }
+                    .sidebar .nav-panel .nav{
+                        position: relative;
+                        margin-top: 20px;
+                    }
+
+                    .sidebar .nav-panel a.btn-nav-first{
+                        position: absolute;
+                        left: 0;
+                    }
+                    .sidebar .nav-panel a.btn-nav-second{
+                        right: 50%;
+                        left: 50%;
+                    }
+                    .sidebar .nav-panel a.btn-nav-third{
+                        position: absolute;
+                        right: 0;
+                    }
+
+                    .sidebar .nav{
+                        text-align: center;
+                    }
+                    .sidebar .btn-nav{
+                        width: 48.87px;
+                        display: inline-block;
+                        line-height: 48.87px;
+                    }
+                    .sidebar .btn-nav img{
+                        width: 48.87px;
+                    }
+
+                    .btn.btn-yellow{
+                        background-color: #F9B652;
+                        color: #fff
+                    }
+                    .mainbar{
+                        margin-left: 8.333333333333333%;
+                    }
+                    .sidebar .description{
+                        margin-top: 35px;
+                    }
+                </style>
+                <div class="kolom k4 sidebar">
+                    <div class="nav-panel">
+                        <p>Upload Video Course</p>
+                        <div class="thumb">
+                            <a href="#" class="btn-thumb delete"><img src="../img/ico/icon_delete.png" alt=""></a>
+                            <img src="../img/Screenshot.png">
+                            <a href="#" class="btn-thumb plus"><img src="../img/ico/icon_add.png" alt=""></a>
+                        </div>
+
+                        <div class="nav">
+                            <a href="#" class="btn-nav-first btn-nav"><img src="../img/ico/icon_left.png"></a>
+                            <a href="#" class="btn btn-nav-second btn-yellow">Browse</a>
+                            <a href="#" class="btn-nav-third btn-nav"><img src="../img/ico/icon_right.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="description text-right">
+                        <textarea name="course-description" class="form-input" style="height:100px;"></textarea>
+                        <button type="submit" class="btn btn-yellow">Send Course</button>
+                    </div>
+                </div>
+                <div class="kolom k7 mainbar">
+                    <form action="#">
+                        <div class="baris">
+                            <div class="kolom k12">
+                                <h2>HELLO,</h2>
+                                <label>Course Name</label> <br>
+                                <input type="text" class="form-input" name="course-name"><br>
+                                <label>Lecture Name</label> <br>
+                                <input type="text" class="form-input" name="lecture-name"><br>
+                            </div>
+                            <div class="kolom k12">
+                                <h2>ADDITIONAL,</h2>
+                                <table>
+                                    <tr>
+                                        <td><label>Price</label></td>
+                                        <td><input type="text" name="price" class="form-input"></td>
+                                        <td>
+                                            <select name="currency" class="form-input">
+                                                <option value="idr">IDR</option>
+                                                <option value="usd">USD</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="cle"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <footer class="text-center">
+            <p style="font-size: 1.3rem;"><i>wikwik<b>Labs</b></i></p>
+            <p>Copyright © 2019 wikwikLabs. All Right Reserved.</p>
+        </footer>
+        <div class="clear"></div>
+    </div>
+
+</body>
+
+</html>
