@@ -1,0 +1,151 @@
+.row-command {
+    background-color: #fafafa;
+    width: 275px;
+    height: 250px;
+    overflow: auto;
+}
+
+.row-command1 {
+    background-color: #fafafa;
+    width: 450px;
+    height: 615px;
+    overflow: scroll;
+}
+
+.row-command2 {
+    background-color: #fafafa;
+    width: 275px;
+    height: 340px;
+    overflow: hidden;
+}
+.row-command3 {
+    background-color: #fafafa;
+    width: 275px;
+    height: 340px;
+    overflow: visible;
+}
+/*Reset password*/
+.reset {
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 1vh;
+    border-color: rgba(255,255,240,0.4);
+}
+.reset_kolomk5{
+    height: 360px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 1vh;
+    border-color: rgba(255,255,240,0.4);
+}
+
+.btn.btn-wikwik1 {
+    color: #fff;
+    background-color: rgb(25, 25, 112);
+    border-color: rgb(25, 25, 112);
+    border-radius: 2vh;
+}
+.btn.btn-wikwik3 {
+    color: #fff;
+    background-color: rgb(255,0,0);
+    border-color: rgb(255,0,0);
+    border-radius: 2vh;
+}
+.btn.btn-wikwik4 {
+    color: #fff;
+    background-color: rgb(25, 25, 112);
+    border-color: rgb(25, 25, 112);
+    border-radius: 4vh;
+}
+
+ul.table-title, .table-title1,  .table-title2, .table-title3{
+    background-color: rgb(57, 55, 104);
+    width: 275px;
+    height: 45px;
+    text-align: left;
+    color: white;
+    padding-top: 8px;
+    list-style: none;
+}
+
+ul.table-title li::before, ul.table-title3 li::before{
+    content: "\2022";
+    color: rgb(173, 174, 234);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul.table-title1 li::before{
+    content: "\2022";
+    color: rgb(245, 192, 69);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul.table-title2 li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul.table-title2{
+    background-color: rgb(57, 55, 104);
+    width: 450px;
+    height: 35px;
+    text-align: left;
+    color: white;
+    padding-top: 8px;
+    list-style: none;
+}
+
+ul.table-title2 li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+/*BATAS FORM*/
+
+footer p{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 0;
+    padding: 0;
+}
+img.kiri {
+    float: left;
+    margin: 5px;
+}
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.kanan {
+    float: right;
+    margin: 5px;
+}
+
+.btn.btn-wikwik.btn-logout {
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.6);
+    border-color: rgb(173, 174, 234);
+    border-radius: 5vh;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+}
