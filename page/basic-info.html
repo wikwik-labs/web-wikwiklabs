@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bambang.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../third-party/font-awesome/css/font-awesome.min.css">
+    <title>WikwikLabs</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="header">
+            <div class="baris">
+                <div class="kolom k6">
+                    <a class="navbar-brand" href="#">
+                        <img src="../img/logo/logo.png" alt="WikwikLab"height="65px" >
+                    </a>
+                </div>
+                <div class="kolom k6">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="course.html">Courses</a></li>
+                            <li><a href="info.html">Info</a></li>
+                            <li>
+                                <a href="basic-info.html">
+                                    <img src="../img/avatar.png" style="width: 65px; height: 70px;" class="account-img">
+                                </a>
+                                <a href="../index.html" class="btn btn-wikwik btn-logout">
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+                <hr style="opacity: 0.1">
+            </div>
+        </section>
+
+        <section class="body-container" style="margin-bottom: 0;">
+            <div class="baris">
+                <div class="kolom k13">
+                    <h2>
+                        Account Settings
+                    </h2>
+                    <div class="sidebar-account">
+                        <ul>
+                            <li class="chosen"><a href="#" class="btn btn-wikwik btn-option">Basic Info</a></li>
+                            <li><a href="#">Change Password</a></li>
+                            <li><a href="#">My Courses</a></li>
+                            <li><a href="#">Achievement</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="kolom k9">
+                    <form action="#" method="post">
+                        <h2 style="padding-top: 50px">
+                            Basic Info
+                        </h2>
+                        <p>
+                            <table style="border-style: none">
+                                <tr>
+                                    <td style="width: 100px">Avatar</td>
+                                    <td>
+                                        <center>
+                                            <img src="../img/avatar.png" style="width: 185px; height: 190px;">
+                                        </center>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <a href="#" class="btn btn-wikwik btn-upload">Upload a new avatar</a>
+                                        </p>
+                                        <p>
+                                            <a href="#" class="btn btn-wikwik btn-delete">Delete avatar</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100px; padding-top: 10px">Firstname</td>
+                                    <td>
+                                        <div class="required">
+                                            *required
+                                        </div>
+                                        <input class="textfield" type="text" name="fname" required>
+                                    </td>
+                                    <td style="width: 100px; padding-top: 10px;">
+                                        <p style="text-indent: 85px;">
+                                            Lastname
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <div class="required">
+                                            *required
+                                        </div>
+                                        <input class="textfield" type="text" name="lname" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100px;">Birthday</td>
+                                    <td style="padding-top: 20px">
+                                        <input class="textfield" type="text" name="birthday">
+                                    </td>
+                                    <td style="width: 100px; padding-top: 10px;">
+                                        <p style="text-indent: 85px;">
+                                            Skills
+                                        </p>
+                                    </td>
+                                    <td rowspan="2">
+                                        <section>
+                                            <label class="container">
+                                                <input type="checkbox" name="skill1" value="Designer">
+                                                <span class="checkmark"> Designer</span>
+                                            </label>
+                                        </section>
+                                        <section>
+                                            <label class="container">
+                                                <input type="checkbox" name="skill2" value="Programmer">
+                                                <span class="checkmark"> Programmer</span>
+                                            </label>
+                                        </section>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100px; padding-top: 20px">Address</td>
+                                    <td style="padding-top: 20px">
+                                        <input class="textfield" type="text" name="address">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100px; padding-top: 20px">Email</td>
+                                    <td style="padding-top: 10px">
+                                        <div class="required">
+                                            *required
+                                        </div>      
+                                        <input class="textfield" type="text" name="email" required>
+                                    </td>
+                                    <td style="width: 100px; padding-top: 10px;">
+                                        <p>
+                                        </p>
+                                    </td>
+                                    <td rowspan="2">
+                                        <section>
+                                            <label class="container">
+                                                <input type="checkbox" name="skill3" value="Analyst">
+                                                <span class="checkmark"> Analyst</span>
+                                            </label>
+                                        </section>
+                                        <section>
+                                            <label class="container">
+                                                <input type="checkbox" name="skill4" value="Illustrator">
+                                                <span class="checkmark"> Illustrator</span>
+                                            </label>
+                                        </section>
+                                    </td>                   
+                                </tr>
+                            </table>
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+            <footer class="text-center">
+                <p style="font-size: 1.3rem; padding-top: 20px"><i>wikwik<b>Labs</b></i></p>
+                <p style="padding-top: 10px">Copyright © 2019 wikwikLabs. All Right Reserved.</p>
+            </footer>
+            <div class="clear"></div>
+        </section>
+    </div>
+</body>
+
+</html>
