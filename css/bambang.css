@@ -1,0 +1,426 @@
+.wrapper{
+    background-color: #ffffff;
+}
+
+/* Grid */
+.kolom.k13{
+  width: 25%;
+}
+
+.kolom.k14{
+  width: 47%;
+}
+
+/* Grid END */
+
+.header .menu{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn.btn-wikwik.btn-lg {
+    color: #fff;
+    background-color: rgb(173, 174, 234);
+    border-color: rgb(173, 174, 234);
+    border-radius: 5vh;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+}
+
+.btn.btn-wikwik:hover{
+    background-color: rgba(57, 55, 104, 0.70);
+    border-color: rgba(57, 55, 104, 0.7);
+}
+.btn {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 2vh;
+}
+
+/*Logout button*/
+
+.btn.btn-wikwik.btn-logout {
+    color: #fff;
+    background-color: rgb(173, 174, 234);
+    border-color: rgb(173, 174, 234);
+    border-radius: 5vh;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+}
+.account-img {
+    position: absolute;
+    left: 1001px;
+    top: 10px;
+}
+/*Sidebar Account Settings*/
+.btn.btn-wikwik.btn-option {
+    color: #fff;
+    background-color: rgb(57, 55, 104);
+    border-color: rgb(173, 174, 234);
+    border-radius: 1vh;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    text-indent: 78px;
+    font-weight: normal;
+}
+
+.sidebar-account {
+    padding-top: 50px;
+    text-align: right;
+}
+
+.sidebar-account ul{
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-account ul li
+{
+    display: inline-block;
+    line-height: 50px;
+    padding-right: 100px;
+}
+
+.sidebar-account ul li a{
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.sidebar-account a:hover.btn{
+    background-color: rgba(57, 55, 104, 0.70);
+    border-color: rgba(57, 55, 104, 0.70);
+    color: #fff;
+}
+
+.sidebar-account a{
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+}
+
+.sidebar-account a:hover{
+    color: rgba(0,0,0,.7);
+}
+
+.sidebar-account li.chosen a{
+    color: rgba(0,0,0,.9);
+}
+
+/*Basic Info*/
+.btn.btn-wikwik.btn-upload {
+    color: #fff;
+    background-color: rgb(245, 192, 69);
+    border-color: rgb(173, 174, 234);
+    border-radius: 1vh;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.btn.btn-wikwik.btn-delete {
+    color: #fff;
+    background-color: rgb(173, 174, 234);
+    border-color: rgb(173, 174, 234);
+    border-radius: 1vh;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-weight: normal;
+}
+
+input.textfield {
+    height: 35px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 1vh;
+    border-color: rgba(255,255,240,0.4);
+}
+
+input.textfield1 {
+    height: 35px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 1vh;
+    border-color: rgba(255,255,240,0.4);
+}
+
+div.required {
+    text-align: right;
+    font-style: italic;
+    font-size: 10px;
+    color: red;
+}
+
+.container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(57, 55, 104, 0.70);
+    text-indent: 40px;
+}
+
+.container:hover input ~ .checkmark
+{
+    background-color: rgba(57, 55, 104, 0.5);
+}
+
+.container input:checked ~ .checkmark
+{
+    background-color: rgb(245, 192, 69);
+}
+
+.checkmark:after
+{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after
+{
+    display: block;
+}
+
+.container .checkmark:after
+{
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*Reset password*/
+.reset {
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 1vh;
+    border-color: rgba(255,255,240,0.4);
+}
+
+.btn.btn-wikwik.btn-reset {
+    color: #fff;
+    background-color: rgb(173, 174, 234);
+    border-color: rgb(173, 174, 234);
+    border-radius: 5vh;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/*course menu*/
+.title {
+    position: absolute;
+    left: 250px;
+    top: 102px;
+}
+
+.learn {
+    position: absolute;
+    left: 450px;
+    top: 102px;
+}
+
+footer p{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 0;
+    padding: 0px;
+}
+
+/* Course Simulator */
+
+ul.table-title, .table-title1,  .table-title2, .table-title3{
+    background-color: rgb(57, 55, 104);
+    width: 275px;
+    height: 35px;
+    text-align: left;
+    color: white;
+    padding-top: 8px;
+    list-style: none;
+}
+
+ul.table-title li::before, ul.table-title3 li::before{
+    content: "\2022";
+    color: rgb(173, 174, 234);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul.table-title1 li::before{
+    content: "\2022";
+    color: rgb(245, 192, 69);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul.table-title2 li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul.table-title2{
+    background-color: rgb(57, 55, 104);
+    width: 450px;
+    height: 35px;
+    text-align: left;
+    color: white;
+    padding-top: 8px;
+    list-style: none;
+}
+
+ul.table-title2 li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.row-command {
+    background-color: #fafafa;
+    width: 275px;
+    height: 250px;
+    overflow: auto;
+}
+
+.row-command1 {
+    background-color: #fafafa;
+    width: 450px;
+    height: 615px;
+    overflow: scroll;
+}
+
+.row-command2 {
+    background-color: #fafafa;
+    width: 275px;
+    height: 340px;
+    overflow: auto;
+}
+
+.row-control {
+    background-color: rgb(57, 55, 104);
+    width: 450px;
+    height: 45px;
+}
+
+.row-output {
+    background-color: #fafafa;
+    width: 275px;
+    height: 660px;
+    overflow: scroll;
+}
+
+.learn-title {
+    position: absolute;
+    bottom: 78px;
+    font-size: 20px;
+    text-indent: 15px;
+    color: rgb(57, 55, 104);
+}
+
+.btn.btn-wikwik.btn-back {
+    color: #fff;
+    background-color: rgb(245, 192, 69);
+    border-color: rgb(173, 174, 234);
+    border-radius: 1vh;
+    width: 75px;
+    height: 45px;
+}
+
+.btn.btn-wikwik.btn-next {
+    color: #fff;
+    background-color: rgb(173, 174, 234);
+    border-color: rgb(173, 174, 234);
+    border-radius: 1vh;
+    width: 75px;
+    height: 45px;
+}
+
+.btn.btn-wikwik.btn-run {
+    color: #fff;
+    background-color: rgb(245, 192, 69);
+    border-color: rgb(173, 174, 234);
+    border-radius: 1vh;
+    width: 50px; 
+    height: 25px; 
+    position: absolute;
+    bottom: 140px;
+    left: 525px;
+}
+
+.btn.btn-wikwik.btn-reload {
+    color: #fff;
+    background-color: rgb(173, 174, 234);
+    border-color: rgb(173, 174, 234);
+    border-radius: 1vh;
+    width: 50px; 
+    height: 25px; 
+    position: absolute;
+    bottom: 140px;
+    left: 585px;
+}
+
+.pict {
+    position: absolute;
+    bottom: 70px;
+    left: 525px;
+}
+
+.pict2 {
+    position: absolute;
+    bottom: 70px;
+    left: 610px;
+}
+
+.pict3, .pict4 {
+    position: absolute;
+    bottom: 5px;
+}
