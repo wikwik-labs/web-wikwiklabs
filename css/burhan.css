@@ -1,6 +1,12 @@
+#register .body-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
 .profile img{
     width: 100%;
 }
+
 .profile {
     display: block;
     margin-left: auto;
@@ -29,7 +35,7 @@
 }
 */
 .form-password {
-    color: rgba(57, 55, 104, 0.70);
+    color: #393768;
     font-size: 15px;
     font-family: SFProDisplay;
     src: url("font/SF-Pro-Display/SF-Pro-Display-Semibold.otf");
@@ -52,4 +58,157 @@
   }
 
 
+#register .wrapper {
+    background: url("../img/bg1.png");
+    background-size: cover;
+    background-color: #fff;
+    background-position-y: -60px;
+}
+
 /*BATAS FORM*/
+
+/*PROGRES*/
+.menu ul li a .logout {
+    width: 10px;
+}
+
+.leason {
+    width: 50%;
+    border: solid transparent 3px;
+    -webkit-box-shadow: 2px 3px 13px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 13px -4px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 13px -4px rgba(0,0,0,0.75);
+    padding: 5vh 3vw;
+    border-radius: 2vh;
+}
+
+.plus {
+    width: 50%;
+    border: solid transparent 3px;
+    -moz-box-shadow: -5px -5px 5px #888;
+    -webkit-box-shadow: -5px -5px 5px #888;
+    box-shadow: -5px -5px 5px #888;
+}
+
+.progress-container{
+    border: solid thin #ccc;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 36px;
+    position: relative;
+}
+.progress-container .progress-dialog{
+    margin-left: 36px;
+}
+.circle-percent{
+    position: absolute;
+    top: -36px;
+    left: -36px;
+    background-color: #fafafafa;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.plus-container{
+    margin-left: 8.333333333333333%;
+    -webkit-box-shadow: 2px 3px 13px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 13px -4px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 13px -4px rgba(0,0,0,0.75);
+    text-align: center;
+    border-radius: 2vh;
+    padding: 17vh 2vh;
+    background-color: #fafafa;
+}
+
+.plus-container:hover{
+    cursor: pointer;
+}
+
+.plus-container:hover > *{
+    opacity: 0.60;
+}
+
+.plus-container i.fa{
+    font-size: 40pt;
+}
+
+
+/*BATAS PROGRES*/
+
+/*ABOUT*/
+.body-about {
+    font-size: 20px;
+    width: 100%;
+    padding : 200px;
+    text-align: center;
+    color: #757575;
+    
+}
+.body-about .paragraf1 {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    color: #757575;
+
+}
+
+body#about {
+    background: url("../img/bgb.png");
+    background-color: #fafafa;
+    background-position-y: 0;
+    background-size: 100%;
+}
+/*
+.header, .header a{
+    color: #fff;
+}
+#register .header, #register .header a{
+    color: #000;
+}
+*/
+#about .wrapper{
+    background: transparent;
+    background-color: transparent;
+}
+#about .header .menu a{
+    color: #fff;
+}
+#about .header .menu a:hover{
+    color: rgba(0,0,0,.5);
+}
+#about .header .menu a:hover.btn{
+    color: #fff;
+}
+.wrapper {
+    width: 100%;
+}
+
+.list-with-thumb{
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    margin: 0;
+    padding: 0;
+}
+.list-with-thumb .thumb, .list-with-thumb .content{
+    float: left;
+}
+.list-with-thumb .thumb{
+    width: 10%;
+}
+.list-with-thumb .content{
+    width:85%;
+    margin-left: 5%;
+    text-align: justify;
+}
+.list-with-thumb .content h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin: 0;
+}
+/*BATAS ABOUT*/
