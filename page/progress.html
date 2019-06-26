@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/progres.css">
+    <link rel="stylesheet" href="../css/burhan.css">
+    <script src="../third-party/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../third-party/jquery-knob/dist/jquery.knob.min.js"></script>
     <link rel="stylesheet" href="../third-party/font-awesome/css/font-awesome.min.css">
     <title>WikwikLabs</title>
 </head>
 
-<body>
+<body id="progress">
     <div class="wrapper">
         <div class="header">
             <div class="baris">
@@ -27,7 +29,7 @@
                             <li><a href="course.html">Courses</a></li>
                             <li><a href="info.html">Info</a></li>
                             <li><a href="register.html">Register</a></li>
-                            <!-- <li><a class="logout"><img src="../img/logout.png" alt="logout"></a></li> -->
+                            <li><a href="login.html" class="btn btn-wikwik btn-lg">Log out</a></li>
                         </ul>
                     </div>
                 </div>
@@ -35,10 +37,11 @@
             </div>
         </div>
 
-        <div class="body-container">
+        <div class="body-container" style="border-top: solid thin #393768;">
             <div class="baris">
+
                 <div class="kolom k6 text-center">
-                    <img src="../img/top.png" class="img-fluid" style="width:80%;">
+                    <img src="../img/top.png" class="img-fluid" style="width: 150%;">
                 </div>
                 <div class="clear"></div>
                 <div class="container" style="width: 75%;">
@@ -48,31 +51,32 @@
                                 <div class="kolom k5">
                                     <img src="../img/html5_logo.png" width="150px">
                                 </div>
-
-                                <style>
-                                    .circle-percent{
-                                        background-color: #adaeea;
-                                        padding: 5px;
-                                    }
-                                    .circle-percent .inner{
-                                        background-color: #fff;
-                                        width: 100%;
-                                    }
-                                </style>
                 
                                 <div class="kolom k7 text-center">
-                                    <div style="border: solid thin #ccc; border-radius: 5px; text-align: left;">
-                                        <div class="circle-percent" style="background-color: #adaeea;">
-                                            <div class="inner">
-                                                66 %
-                                            </div>
+                                    <div class="progress-container">
+                                        <div class="circle-percent">
+                                            <input type="text" value="66" class="dial" data-width="70" data-thickness=.15 data-readOnly=true disabled>
+                                            <script>
+                                                $(function () {
+                                                        $(".dial").knob({
+                                                            height: 70,
+                                                            fgColor: '#adaeea',
+                                                            // bgColor: '#00ff00',
+                                                            'draw': function () {
+                                                                $(this.i).css('font-size', '15pt').css('height', 'auto');
+                                                            }
+                                                        });
+                                                    });
+                                            </script>
                                         </div>
-                                        Leason Title
-                                        <hr>
-                                        Lorem ipsum dolor sit amet. consectetur adipicising elit,sed do elusmod tempor incididunt ut labore et dolore magna elqua.
+                                        <div class="progress-dialog">
+                                            <h3>Leason Title</h3>
+                                            <hr>
+                                            Lorem ipsum dolor sit amet. consectetur adipicising elit,sed do elusmod tempor incididunt ut labore et dolore magna elqua.
+                                        </div>
                                     </div>
                                     <div class="button-container" style="margin-top: 41px;">
-                                        <a href="#" class="btn btn-wikwik btn-lg">Resume</a>
+                                        <a href="#" class="btn btn-wikwik btn-lg" style="background-color: #605EB2;">Resume</a>
                                         <a href="#" class="btn btn-wikwik btn-lg">Reset</a>
                                     </div>
                                 </div>
@@ -81,9 +85,10 @@
                 
                         </div>
                 
-                        <!-- <div class="plus kolom k5">
-                            <i class="fa fa-plus"></i>
-                        </div> -->
+                        <div class="plus-container kolom k4" onclick="window.location.href='#gantidenganalamattujuan'">
+                            <i class="fa fa-plus" style="margin-bottom:40px;"></i><br>
+                            Take Another Course
+                        </div>
                         <div class="clear"></div>
                     </div>
                 </div>
