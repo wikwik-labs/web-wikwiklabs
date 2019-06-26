@@ -31,6 +31,7 @@
 
   width: 100%;
   display: block;
+  padding-bottom: 54px;
 }
 .wrap-input100 {
   position: relative;
@@ -122,4 +123,94 @@ iframe {
   font-size: 13px;
   line-height: 1.5;
   color: #666666;
+}
+
+.sidebar {
+  background-color: #F9F9F9;
+  padding: 0 18.5px;
+}
+
+.sidebar .nav-panel .thumb {
+  position: relative;
+}
+
+.sidebar .nav-panel .thumb,
+.sidebar .nav-panel .thumb img {
+  border-radius: 2vh;
+}
+
+.sidebar .nav-panel a.btn-nav {
+  color: #fff;
+}
+
+.sidebar .nav-panel .btn-thumb {
+  position: absolute;
+  top: 37%;
+  font-size: 16pt;
+  width: 37px;
+  height: 37px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 5px;
+}
+
+.sidebar .nav-panel .btn-thumb.delete {
+  background-color: #F06292;
+  left: -18.5px;
+}
+
+.sidebar .nav-panel .btn-thumb.plus {
+  background-color: #4DB6AC;
+  right: -18.5px;
+}
+
+.sidebar .nav-panel img {
+  width: 100%;
+}
+
+.sidebar .nav-panel .nav {
+  position: relative;
+  margin-top: 20px;
+}
+
+.sidebar .nav-panel a.btn-nav-first {
+  position: absolute;
+  left: 0;
+}
+
+.sidebar .nav-panel a.btn-nav-second {
+  right: 50%;
+  left: 50%;
+}
+
+.sidebar .nav-panel a.btn-nav-third {
+  position: absolute;
+  right: 0;
+}
+
+.sidebar .nav {
+  text-align: center;
+}
+
+.sidebar .btn-nav {
+  width: 48.87px;
+  display: inline-block;
+  line-height: 48.87px;
+}
+
+.sidebar .btn-nav img {
+  width: 48.87px;
+}
+
+.btn.btn-yellow {
+  background-color: #F9B652;
+  color: #fff
+}
+
+.mainbar {
+  margin-left: 8.333333333333333%;
+}
+
+.sidebar .description {
+  margin-top: 35px;
 }
